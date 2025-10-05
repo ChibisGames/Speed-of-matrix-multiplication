@@ -39,12 +39,6 @@ time java speedtest_java
 echo "=== Pascal ==="
 time ./speedtest_pascal
 
-echo "=== Python (default) ==="
-time python3 ./speedtest_python.py
-
-echo "=== Python (+np *) ==="
-time python3 ./speedtest_numpy.py
-
 
 echo "===== REMOVING EXE FILES ====="
 
